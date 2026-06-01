@@ -14,6 +14,7 @@ skills/
 |   |   ├── curate-agent-memory/
 |   |   ├── fix-ci-failure/
 |   |   ├── review-implementation-options/
+|   |   ├── spark/
 |   |   ├── spec-first/
 |   |   ├── tdd-vertical-slice/
 |   |   └── write-handoff-prompt/
@@ -38,6 +39,7 @@ Each skill directory contains a required `SKILL.md` file and may also contain op
 | [`curate-agent-memory`](skills/coding/curate-agent-memory/SKILL.md) | Add or revise durable agent instructions without bloating project memory |
 | [`fix-ci-failure`](skills/coding/fix-ci-failure/SKILL.md) | Diagnose CI failures, inspect remote logs, reproduce locally, and make focused fixes |
 | [`review-implementation-options`](skills/coding/review-implementation-options/SKILL.md) | Compare minimum-change, clean-refactor, best-practice, and alternative implementation options |
+| [`spark`](skills/coding/spark/SKILL.md) | Brainstorm an idea or feature through dialogue, compare approaches, and write an approved design spec |
 | [`spec-first`](skills/coding/spec-first/SKILL.md) | Create an implementable spec before coding ambiguous, risky, or medium-to-large development work |
 | [`tdd-vertical-slice`](skills/coding/tdd-vertical-slice/SKILL.md) | Implement functionality one tested vertical slice at a time |
 | [`write-handoff-prompt`](skills/coding/write-handoff-prompt/SKILL.md) | Create a durable handoff file and short prompt for another coding agent to continue work |
